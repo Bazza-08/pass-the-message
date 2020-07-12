@@ -1,0 +1,30 @@
+* {
+    margin: 0 auto;
+    box-sizing: border-box;
+}
+
+body {
+    height: 100vh;
+    background: tomato;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.message_box {
+    width: 80%;
+    background: white;
+    height: 300px;
+    text-align: center;
+    padding: 40px;
+    border-radius: 20px;
+}
+
+h2, h3 {
+    width: 100%;
+    padding: 20px;
+}
+
+h3 {
+    color: tomato;
+}
